@@ -1,0 +1,6 @@
+name/age/gender
+1/Max/25/m
+2/James/26/m
+3/Susan/25/w
+4/Ben/24/m
+5/Jane/27/w

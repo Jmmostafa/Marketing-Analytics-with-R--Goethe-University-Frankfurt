@@ -1,0 +1,11 @@
+"Firstname";"Lastname";"COIN";"REMA";"ACVM"
+"John";"Davis";18;80;89
+"Angela";"Williams";38;71;80
+"Bullwinkle";"Moose";53;85;75
+"David";"Jones";36;78;38
+"Janice";"Markhammer";84;81;19
+"Cheryl";"Cushing";16;28;26
+"Reuven";"Ytzrhak";37;40;56
+"Greg";"Knox";71;54;27
+"Joel";"England";47;46;43
+"Mary";"Rayburn";74;20;24
