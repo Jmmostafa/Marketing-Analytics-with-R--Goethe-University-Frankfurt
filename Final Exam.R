@@ -1,12 +1,11 @@
 
 # Final Exam Script
+
 library(tidyquant)
 library(tidyverse)
 library(lubridate)
 library(readr)
 library(readxl)
-
-
 
 
 # Task 1: Creating Certificate Grades -------------------------------------
@@ -33,9 +32,19 @@ cdata <- cdata %>% arrange(Lastname,Firstname)
 
 # Task 2: Flirting --------------------------------------------------------
 
+chatPerson <- read.delim("Chat-Up-Lines_Person.txt", header = T, sep = ",")
+chatSuccess <- read.delim("Chat-Up-Lines_Success.txt", header = T, sep = ",")
+ChatPer_Succ <- merge(chatPerson,chatSuccess, by="id", all = T)
+
+# Who is flirted with more (in percentage) - men or women?
+# Who is addressed with funnier chat-up lines on average - men or women?
+# Who is approached with more suggestive chat-up lines on average - men or women?
+# Contingency table for the success
 
 
 
 
+# Task 3: Nobel Prizes ----------------------------------------------------
 
+nobel <- read.csv("http://api.nobelprize.org/v1/laureate.csv")
 
