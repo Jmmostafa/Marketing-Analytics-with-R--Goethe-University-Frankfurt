@@ -1,10 +1,6 @@
 
-# Final Exam Script
-
-library(tidyverse)
-library(readr)
-library(ggthemes)
-library(readxl)
+# Final Exam Script for Marketing Analytics with R
+# ========================================================================
 
 
 # Task 1: Creating Certificate Grades -------------------------------------
