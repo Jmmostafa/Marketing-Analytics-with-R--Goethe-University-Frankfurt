@@ -94,5 +94,6 @@ nobel %>% group_by(category, share) %>%
         y = "Average Number of Laureates per Prize")
   
   
+# The end -----------------------------------------------------------------
 
 
